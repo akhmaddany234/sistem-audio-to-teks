@@ -169,7 +169,7 @@ with st.sidebar:
     st.session_state['use_auto_split'] = use_auto_split
     st.session_state['split_duration'] = split_duration
     st.session_state['use_correction'] = use_correction
-    st.session_state['use_advanced_summarizer'] = use_advanced_summarizer  # Simpan juga setting ini
+    # st.session_state['use_advanced_summarizer'] = use_advanced_summarizer  # Simpan juga setting ini
     
     st.markdown("---")
 
