@@ -15,8 +15,8 @@ from utils.summarizer import generate_summary, extract_keywords
 
 # Konfigurasi halaman
 st.set_page_config(
-    page_title="HR Meeting Minutes Generator",
-    page_icon="📝",
+    page_title="Transkripsi Audio to Teks",
+    page_icon="Icons.png",
     layout="wide"
 )
 
@@ -61,8 +61,8 @@ st.markdown("""
 # Header
 st.markdown("""
     <div class="main-header">
-        <h1>HR Minutes Generator</h1>
-        <p>Upload rekaman rapat HR, dapatkan notulen otomatis</p>
+        <h1>Transcripsi Audio ke Teks Unlimited</h1>
+        <p>Upload rekaman, dapatkan notulen otomatis</p>
     </div>
 """, unsafe_allow_html=True)
 
@@ -207,7 +207,7 @@ with col1:
     uploaded_file = st.file_uploader(
         "Pilih file audio (MP3, WAV, M4A)",
         type=['mp3', 'wav', 'm4a', 'mp4'],
-        help="Upload rekaman rapat HR Anda"
+        help="Upload rekaman Anda"
     )
     
     if uploaded_file is not None:
@@ -713,7 +713,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style="text-align: center; color: #666; padding: 20px;">
-        <p>🚀 Powered by Whisper AI + IndoBERT | Made with ❤️ untuk HR Indonesia</p>
+        <p>🚀 Powered by Whisper AI + IndoBERT | AkhmadDany_DataScience</p>
         <p style="font-size: 12px;">© 2024 - HR Meeting Minutes Generator</p>
     </div>
     """,
