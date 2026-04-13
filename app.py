@@ -68,7 +68,7 @@ st.markdown("""
 
 # ==================== SIDEBAR ====================
 with st.sidebar:
-    st.image("https://img.icons8.com/color/96/000000/meeting.png")
+    st.image("Icons.png")
     st.markdown("### Tentang Aplikasi")
     
     st.markdown("### Format Audio Didukung")
