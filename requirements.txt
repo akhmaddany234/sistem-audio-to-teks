@@ -8,4 +8,3 @@ spacy
 python-docx
 pandas
 numpy
-pyaudioop
