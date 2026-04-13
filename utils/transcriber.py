@@ -1,7 +1,6 @@
 # utils/transcriber.py
 import whisper
 import os
-from pydub import AudioSegment
 import tempfile
 import streamlit as st
 from .corrections import correct_transcript
