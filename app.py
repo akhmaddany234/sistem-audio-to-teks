@@ -7,7 +7,6 @@ from docx import Document
 from docx.shared import Inches, Pt
 import time
 import calendar
-from pydub import AudioSegment
 import io
 
 # Import fungsi dari utils 
