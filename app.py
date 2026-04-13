@@ -110,14 +110,12 @@ with st.sidebar:
     
     whisper_model = st.selectbox(
         "Opsi Ukuran Model Whisper",
-        options=["tiny", "base", "small", "medium", "large"],
+        options=["tiny", "base", "small"],
         index=1,
         help="""
         - **tiny**: Tercepat, akurasi rendah
         - **base**: Cepat, akurasi cukup
         - **small**: Sedang, akurasi baik
-        - **medium**: Lambat, akurasi sangat baik
-        - **large**: Paling lambat, akurasi terbaik (rekomendasi untuk bahasa Indonesia)
         """
     )
     
@@ -125,8 +123,6 @@ with st.sidebar:
         "tiny": "⚡ 32x lebih cepat dari large, akurasi ~60%",
         "base": "🚀 16x lebih cepat dari large, akurasi ~75%",
         "small": "🏃 8x lebih cepat dari large, akurasi ~82%",
-        "medium": "🐢 4x lebih cepat dari large, akurasi ~88%",
-        "large": "🐌 Kecepatan normal, akurasi ~92% (terbaik untuk Bahasa Indonesia)"
     }
     st.caption(model_info[whisper_model])
     
