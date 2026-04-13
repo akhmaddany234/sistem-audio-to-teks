@@ -86,24 +86,24 @@ with st.sidebar:
     
     st.markdown("---")
     
-    # ===== Pengaturan Summarization =====
-    st.markdown("### Pengaturan Summarization")
+    #  ===== Pengaturan Summarization =====
+    # st.markdown("### Pengaturan Summarization")
     
-    use_advanced_summarizer = st.checkbox(
-        "Gunakan Advanced Summarizer (Transformer)",
-        value=False,
-        help="Menggunakan model IndoBERT untuk summarization yang lebih akurat"
-    )
+    # use_advanced_summarizer = st.checkbox(
+    #     "Gunakan Advanced Summarizer (Transformer)",
+    #     value=False,
+    #     help="Menggunakan model IndoBERT untuk summarization yang lebih akurat"
+    # )
     
-    if use_advanced_summarizer:
-        st.info("""
-        **Model yang digunakan:**
-        - IndoBERT Summarization
-        - Zero-shot classification untuk key points
-        - NER untuk timeline extraction
-        """)
+    # if use_advanced_summarizer:
+    #     st.info("""
+    #     **Model yang digunakan:**
+    #     - IndoBERT Summarization
+    #     - Zero-shot classification untuk key points
+    #     - NER untuk timeline extraction
+    #     """)
     
-    st.markdown("---")
+    # st.markdown("---")
     
     # ===== Opsi Model Whisper =====
     st.markdown("### Pengaturan Lanjutan")
