@@ -405,19 +405,6 @@ with col2:
     4. **Tunggu** proses AI (1-5 menit)
     5. **Edit** transkrip jika perlu
     6. **Ringkaskan Ulang** tanpa proses ulang audio
-    
-    **Fitur Baru:**
-    - ✂️ Potong audio tanpa batas ukuran
-    - 🎵 Preview audio original & potongan
-    - 📝 Edit transkrip langsung
-    - 🔄 Ringkaskan ulang tanpa proses audio
-    - 🤖 Advanced summarization dengan IndoBERT
-    
-    **Keuntungan:**
-    - ⏱️ Hemat waktu 90%
-    - 🎯 Akurat untuk Bahasa Indonesia
-    - 📊 Mudah dicari & diarsip
-    - 🔒 Data aman (lokal)
     """)
 
 # ==================== TAMPILKAN HASIL ====================
